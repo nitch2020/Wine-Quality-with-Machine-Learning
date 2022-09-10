@@ -12,5 +12,6 @@ Nous avons donc ressorti le nombre de valeurs de chaque variable, calculer la mo
 Nous avons ensuite effectué un prétraitement qui a consisté à séparer la variable dépendante des autres variables et la binarisation de cette dernière tels que, pour les valeurs de qualité supérieures à 7, la qualité vaut 1(bon vin), sinon la qualité vaut 0(mauvais vin). Nous avons ensuite divisé nos données en données d'entraînement (70%) et données test(20%).
 # Entrainement et Evaluation
 Nous avons entraîné notre modèle avec l’algorithme de Random Forest et nous l’avons évalué sur les données test. On a obtenu une précision de 93.7%.
-
+# Evaluation avec les algorithmes Random Forest et SVM
+Le premier resultat obtenu avec l'algorithme Random Forest nous donne une précision de 93.7% tandis avec l'entrainement avec l'algorithme SVM nous donne une précision de 88.4%. Donc on peut conclure que l'algorithme Random Forest a une meilleure performance que SVM dans ce cas de classification.
 
